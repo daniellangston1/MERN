@@ -1,18 +1,33 @@
 import './App.css';
+import PersonCard from './components/PersonCard';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Dojo</h1>
-      <div>
-        Things I need to do:
-      <ul>
-        <li>Learn React</li>
-        <li>Climb Mt. Everest</li>
-        <li>Run a marathon</li>
-        <li>Feed the dogs</li>
-      </ul>
-      </div>
+      <PersonCard 
+      lastName = {'Langston'}
+      firstName = {'Daniel'}
+      age = {24}
+      hair = {'brown'}
+      />
+      <PersonCard 
+      lastName = {'Langston'}
+      firstName = {'Gabriela'}
+      age = {23}
+      hair = {'blonde'}
+      />
+      <PersonCard 
+      lastName = {'Langston'}
+      firstName = {'Ken'}
+      age = {35}
+      hair = {'brown'}
+      />
+            <PersonCard 
+      lastName = {'Langston'}
+      firstName = {'Marci'}
+      age = {33}
+      hair = {'brown'}
+      />
     </div>
   );
 }
