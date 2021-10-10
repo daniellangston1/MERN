@@ -5,7 +5,7 @@ import UserForm from './components/UserForm';
 function App() {
   return (
     <div className="App">
-      <PersonCard 
+      {/* <PersonCard 
       lastName = {'Langston'}
       firstName = {'Daniel'}
       age = {24}
@@ -29,7 +29,7 @@ function App() {
       age = {33}
       hair = {'brown'}
       />
-      <button onClick={ ()=> alert("This button has been clicked!") }>Click Me</button>
+      <button onClick={ ()=> alert("This button has been clicked!") }>Click Me</button> */}
       <UserForm />
     </div>
   );
