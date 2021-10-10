@@ -1,5 +1,6 @@
 import './App.css';
 import PersonCard from './components/PersonCard';
+import UserForm from './components/UserForm';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       hair = {'brown'}
       />
       <button onClick={ ()=> alert("This button has been clicked!") }>Click Me</button>
+      <UserForm />
     </div>
   );
 }
