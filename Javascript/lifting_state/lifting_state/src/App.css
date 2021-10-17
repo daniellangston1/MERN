@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.night {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.day{
+  text-align: center;
+
+}
+
+.sepia {
+  text-align: center;
+  background-color: yellow;
+}
